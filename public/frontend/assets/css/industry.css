@@ -1,0 +1,94 @@
+
+
+/* contact us */
+.title_all_box.style_one .title_sections .before_title, .title_all_box.style_two .title_sections .before_title {
+    font-size: 22px;
+    line-height: 40px;
+    font-weight: 700;
+    color: var(--primary-color-one);
+    padding: 0px 0px 10px 0px;
+    text-decoration: underline;
+    font-family: var(--creote-family-one);
+}
+.title_all_box .title_sections .title_big {
+    font-size: 51px !important;
+    font-weight: 800 !important;
+    line-height: 66px !important;
+}
+.title_all_box.style_one .title_sections p, .title_all_box.style_two .title_sections p {
+    font-size: 17px;
+    line-height: 27px;
+    padding: 0px 0px 10px 0px;
+}
+.theme-btn.one {
+    display: inline-block;
+    padding: 0px 25px;
+    border-radius: 10px 0px 10px 0px;
+    background: var(--primary-color-one);
+    color: #fff;
+    border: 1px solid var(--primary-color-one);
+    line-height: 56px;
+    min-height: 56px;
+    min-width: 160px;
+    font-weight: 600;
+    font-size: 15px;
+    text-align: center;
+    transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+.theme-btn.one:hover {
+    background: #fff;
+    color: var(--primary-color-one);
+    border-radius: 0px 10px 0px 10px;
+}
+.contact_form_box_all.type_five {
+    background-color: #FFFFFF;
+    padding: 40px 40px 40px 40px;
+    border-radius: 10px 10px 10px 10px;
+}
+.contact_form_box_all.type_five .title_sections .before_title {
+    font-size: 15px !important;
+    font-weight: 600 !important;
+    line-height: 25px !important;
+    letter-spacing: 1.3px !important;
+}
+.font_24 {
+    font-size: 24px !important;
+    line-height: 36px !important;
+}
+form p {
+    margin-bottom: 0px;
+}
+.contact_form_box_all.type_five label {
+    color: var(--primary-color-one);
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: var(--creote-family-one);
+    font-weight: 500;
+    width: 100%;
+    position: relative;
+}
+form br {
+    display: none;
+}
+input, input[type=text], input[type=email], input[type=number], textarea, select {
+    position: relative;
+    height: 56px;
+    line-height: 26px;
+    border-radius: 5px;
+    border: 1px solid var(--border-color-dark);
+    width: 100%;
+    padding: 4px 15px 0px 15px;
+    display: block;
+    transition: 0.5s ease-in-out !important;
+    -moz-transition: 0.5s ease-in-out !important;
+    -o-transition: 0.5s ease-in-out !important;
+    -ms-transition: 0.5s ease-in-out !important;
+    margin-bottom: 20px;
+    color: var(--text-color-dark);
+}
+.contact_form_box_all input, .contact_form_box_all input[type=text], .contact_form_box_all input[type=email], .contact_form_box_all input[type=number], .contact_form_box_all textarea, .contact_form_box_all select {
+    margin: 6px 0px 25px !important;
+}
